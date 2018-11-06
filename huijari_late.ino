@@ -57,13 +57,13 @@ void loop() {
 void seg1() {
   digitalWrite(SEG, HIGH);
     showBin(4);
- delay(1);
+ delay(10);
   }
 
 void seg2() {
   digitalWrite(SEG2, HIGH);
     showBin(2);
- delay(1);
+ delay(10);
 }
 
 
