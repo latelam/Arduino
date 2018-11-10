@@ -56,14 +56,14 @@ void loop() {
 
 void seg1() {
   digitalWrite(SEG, HIGH);
-  for(int count; count <10; count++) {
+  for(int count = 0; count <10; count++) {
  showBin(count);
  delay(250);
   }
 }
 void seg2() {
   digitalWrite(SEG2, HIGH);
-  for(int count; count <10; count++) {
+  for(int count = 0; count <10; count++) {
  showBin(count);
  delay(250);
 }
